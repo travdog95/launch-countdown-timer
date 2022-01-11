@@ -1,0 +1,103 @@
+@import "variables.css";
+
+:root {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/images/pattern-hills.svg") center bottom no-repeat, url("/images/bg-stars.svg");
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.title {
+  font-size: 1.3rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin: 3rem 0 5rem 0;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.countdown-segment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.countdown-value-container {
+  width: 10rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 5px var(--color-very-dark);
+}
+
+.countdown-background {
+  width: 100%;
+  height: 50%;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-size: 5.5rem;
+  overflow: hidden;
+}
+.countdown-background-top {
+  background-color: var(--color-dark-blue);
+  border-bottom: 1px solid var(--color-very-dark-blue);
+}
+
+.countdown-background-top div {
+  margin-top: 0.7rem;
+  color: var(--color-text-numbers-dark);
+}
+
+.countdown-background-bottom {
+  background-color: var(--color-dark-desaturated-blue);
+}
+
+.countdown-background-bottom div {
+  color: var(--color-text-numbers);
+  margin-top: -3.75rem;
+}
+
+.label {
+  color: var(--color-text-accent);
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+}
+
+footer > .footer-icon {
+  padding: 0.75rem;
+}

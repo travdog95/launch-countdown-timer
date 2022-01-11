@@ -1,0 +1,12 @@
+:root {
+  --container-max-width: 1440px;
+  --color-background: hsl(250, 17%, 14%);
+  --color-text-light: hsl(0, 0%, 100%);
+  --color-text-accent: hsl(237, 18%, 59%);
+  --color-text-numbers: hsl(345, 95%, 68%);
+  --color-text-numbers-dark: hsl(345, 60%, 57%);
+  --color-dark-desaturated-blue: hsl(236, 21%, 26%);
+  --color-dark-blue: hsl(240, 21%, 22%);
+  --color-very-dark-blue: hsl(235, 16%, 14%);
+  --color-very-dark: hsl(234, 17%, 12%);
+}
