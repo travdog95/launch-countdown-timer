@@ -1,5 +1,6 @@
 :root {
   --container-max-width: 1440px;
+  --mobile-max-width: 700px;
   --color-background: hsl(250, 17%, 14%);
   --color-text-light: hsl(0, 0%, 100%);
   --color-text-accent: hsl(237, 18%, 59%);

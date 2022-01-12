@@ -2,9 +2,28 @@
 
 :root {
   font-family: "Red Hat Text", sans-serif;
-  font-size: 14px;
   text-transform: uppercase;
   color: var(--color-text-light);
+  font-size: 14px;
+}
+
+/* responsive for mobile */
+@media (max-width: 700px) {
+  :root {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 410px) {
+  :root {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 280px) {
+  :root {
+    font-size: 6px;
+  }
 }
 
 *,

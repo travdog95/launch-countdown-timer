@@ -1,10 +1,12 @@
 //Kimmo's birthday
-const countDownDate = new Date("Jan 29, 2022 00:00:00").getTime();
+//const countDownDate = new Date("Jan 29, 2022 00:00:00").getTime();
+let now = new Date().getTime();
+const countDownDate = 14 * 60 * 60 * 24 * 1000 + now;
 
 // Update the count down every 1 second
 const countDown = setInterval(function () {
   // Get today's date and time
-  const now = new Date().getTime();
+  now = new Date().getTime();
 
   // Find the distance between now and the count down date
   const distance = countDownDate - now;
