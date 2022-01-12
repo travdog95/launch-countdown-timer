@@ -73,6 +73,7 @@ body {
   font-size: 5.5rem;
   overflow: hidden;
 }
+
 .countdown-background-top {
   background-color: var(--color-dark-blue);
   border-bottom: 1px solid var(--color-very-dark-blue);
@@ -89,7 +90,7 @@ body {
 
 .countdown-background-bottom div {
   color: var(--color-text-numbers);
-  margin-top: -3.75rem;
+  margin-top: -3.8rem;
 }
 
 .label {
@@ -98,6 +99,15 @@ body {
   letter-spacing: 0.3rem;
 }
 
-footer > .footer-icon {
-  padding: 0.75rem;
+.footer-icon {
+  margin: 0.75rem;
+}
+
+.footer-icon svg {
+  fill: var(--color-text-accent);
+}
+
+.footer-icon svg:hover {
+  fill: var(--color-text-numbers);
+  cursor: pointer;
 }
