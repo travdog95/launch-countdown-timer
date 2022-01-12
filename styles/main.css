@@ -14,7 +14,8 @@
 }
 
 body {
-  background: url("/images/pattern-hills.svg") center bottom no-repeat, url("/images/bg-stars.svg");
+  background: url("../images/pattern-hills.svg") center bottom no-repeat,
+    url("../images/bg-stars.svg");
   background-color: var(--color-background);
   margin: 0;
   padding: 0;
