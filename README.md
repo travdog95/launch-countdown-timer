@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/travdog95/launch-countdown-timer)
-- Live Site URL: [Add live site URL here](https://travdog95.github.io/launch-countdown-timer/)
+- Solution URL: [https://github.com/travdog95/launch-countdown-timer](https://github.com/travdog95/launch-countdown-timer)
+- Live Site URL: [https://travdog95.github.io/launch-countdown-timer/](https://travdog95.github.io/launch-countdown-timer/)
 
 ## My process
 
