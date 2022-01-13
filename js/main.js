@@ -27,17 +27,13 @@ const countDown = setInterval(function () {
 
   // Display results
   //Days
-  document.querySelectorAll("#days div div.countdown-value")[0].innerText = days;
-  document.querySelectorAll("#days div div.countdown-value")[1].innerText = days;
+  document.querySelector("#days div.countdown-value").innerText = days;
   //Hours
-  document.querySelectorAll("#hours div div.countdown-value")[0].innerText = hours;
-  document.querySelectorAll("#hours div div.countdown-value")[1].innerText = hours;
+  document.querySelector("#hours div.countdown-value").innerText = hours;
   //minutes
-  document.querySelectorAll("#minutes div div.countdown-value")[0].innerText = minutes;
-  document.querySelectorAll("#minutes div div.countdown-value")[1].innerText = minutes;
+  document.querySelector("#minutes div.countdown-value").innerText = minutes;
   //seconds
-  document.querySelectorAll("#seconds div div.countdown-value")[0].innerText = seconds;
-  document.querySelectorAll("#seconds div div.countdown-value")[1].innerText = seconds;
+  document.querySelector("#seconds div.countdown-value").innerText = seconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
